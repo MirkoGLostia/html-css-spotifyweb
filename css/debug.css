@@ -1,0 +1,29 @@
+
+#upper-container {
+    display: flex;
+    height: calc(100vh - 150px);
+}
+
+#upper-container > nav {
+    width: 400px;
+}
+
+#upper-container > main {
+    flex-grow: 1;
+}
+
+#player {
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+.blue {
+    height: 100px;
+    background-color: blue;
+}
