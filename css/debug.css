@@ -1,33 +1,5 @@
 
-#player-left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #7c7c7c;
-}
-
-#player-song {
-    display: flex;
-    align-items: center;
-}
-
-#player-song > div {
-    margin-left: 20px;
-}
-
-#player-song > div > h3 {
-    color: white;
-    font-size: 14px;
-}
-
-#player-song > div > h4 {
-    font-size: 12px;
-}
-
-#player-left > div > span {
-    padding-right: 10px;
-    font-size: 20px;
-}
+/* middle */
 
 
 
@@ -35,6 +7,13 @@
 
 
 
+
+
+
+
+
+
+/* debug */
 
 .blue {
     height: 80px;

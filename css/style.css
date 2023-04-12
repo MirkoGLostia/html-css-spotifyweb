@@ -56,3 +56,65 @@
  ********/
 
 
+    /* left */
+
+    #player-left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #7c7c7c;
+    }
+    
+    #player-song {
+        display: flex;
+        align-items: center;
+    }
+    
+    #player-song > div {
+        margin-left: 20px;
+    }
+    
+    #player-song > div > h3 {
+        color: white;
+        font-size: 14px;
+    }
+    
+    #player-song > div > h4 {
+        font-size: 12px;
+    }
+    
+    #player-left > div > span {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+
+
+
+    /* middle */
+
+
+
+    /* right */
+
+    #player-right {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+    
+    #player-right > div {
+        margin-right: 20px;
+        word-spacing: 10px;
+    }
+    
+    .time-bar {
+        flex-grow: 1;
+    }
+    
+    .time-bar > hr {
+        background-color: #5a5a5a;
+        height: 5px;
+        border-radius: 20px;
+    }
