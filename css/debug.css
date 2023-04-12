@@ -1,19 +1,32 @@
 
-#upper-container {
+#player-left {
     display: flex;
-    height: calc(100vh - 150px);
+    align-items: center;
+    justify-content: space-between;
+    color: #7c7c7c;
 }
 
-#upper-container > nav {
-    width: 400px;
+#player-song {
+    display: flex;
+    align-items: center;
 }
 
-#upper-container > main {
-    flex-grow: 1;
+#player-song > div {
+    margin-left: 20px;
 }
 
-#player {
-    height: 150px;
+#player-song > div > h3 {
+    color: white;
+    font-size: 14px;
+}
+
+#player-song > div > h4 {
+    font-size: 12px;
+}
+
+#player-left > div > span {
+    padding-right: 10px;
+    font-size: 20px;
 }
 
 
@@ -24,6 +37,12 @@
 
 
 .blue {
-    height: 100px;
+    height: 80px;
     background-color: blue;
+}
+
+.img-holder {
+    background-color: white;
+    height: 50px;
+    width: 50px;
 }

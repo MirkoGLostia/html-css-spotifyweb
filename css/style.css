@@ -2,9 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*********
  *GENERAL*
  *********/
+
+ #upper-container {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+#upper-container > nav {
+    width: 400px;
+}
+
+#upper-container > main {
+    flex-grow: 1;
+}
+
+.player {
+    background-color: #282828;
+    height: 100px;
+}
+
+
+
+
+/***********
+ *MAIN LEFT*
+ ***********/
+
+
+
+
+
+
+
+/************
+ *MAIN RIGHT*
+ ************/
+
+
+
+
+
+
+
+
+/********
+ *PLAYER*
+ ********/
+
 
