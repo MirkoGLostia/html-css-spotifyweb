@@ -166,6 +166,23 @@
         font-weight: 600;
     }
 
+    #main-content > div h2 {
+        color: white;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+    #main-content > div h3, h4 {
+        margin-bottom: 10px;
+    }
+    
+    #main-content > div h3 {
+        color: white;
+    }
+    
+    #main-content > div h4 {
+        color: #7d7f84;
+    }
 
 
 
@@ -224,6 +241,35 @@
 
     /* middle */
 
+    .player > div {
+        text-align: center;
+    }
+    
+    .player > div span {
+        font-size: 22px;
+        margin: auto 10px;
+        color: white;
+    }
+    
+    #play-button {
+        font-size: 30px;
+    }
+    
+    #song-status {
+        display: flex;
+        align-items: center;
+    }
+    
+    #song-status span {
+        font-size: 14px;
+    }
+    
+    #song-status > div {
+        padding-top: 10px;
+    }
+
+    
+    
 
 
     /* right */

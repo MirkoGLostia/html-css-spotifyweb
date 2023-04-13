@@ -1,23 +1,6 @@
 
-/* main right */
+/* main left */
 
-#main-content > div h2 {
-    color: white;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-
-#main-content > div h3, h4 {
-    margin-bottom: 10px;
-}
-
-#main-content > div h3 {
-    color: white;
-}
-
-#main-content > div h4 {
-    color: #7d7f84;
-}
 
 
 
@@ -30,8 +13,13 @@
 /* debug */
 
 .blue {
-    height: 80px;
+    height: 40px;
     background-color: blue;
+}
+
+.green {
+    height: 40px;
+    background-color: green;
 }
 
 .img-holder {
