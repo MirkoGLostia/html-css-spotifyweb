@@ -50,6 +50,8 @@
         background-color: black;
         color: #6f6f6f;
         padding-left: 20px;
+        display: flex;
+        flex-direction: column;
     }
     
     #gen-l-nav > img {
@@ -75,6 +77,10 @@
 
 
     /* playlist navigation */
+
+    #nav-playlist {
+        flex-grow: 1;
+    }
 
     #nav-playlist > h2 {
         color: white;
@@ -109,6 +115,41 @@
 
     /* footer */
 
+    #general-nav-footer > div {
+        display: flex;
+        margin: 10px;
+    }
+    
+    #general-nav-footer img {
+        width: 20px;
+    }
+    
+    #general-nav-footer > div > span {
+        margin-right: 10px;
+    }
+    
+    #general-nav-footer > div h5 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    #general-nav-footer-prof {
+        border-top: solid #808080 2px;
+        padding-top: 10px;
+    }
+    
+    #general-nav-footer-prof > div {
+        background-color: #808080;
+        margin-right: 10px;
+        padding: 0px 5px;
+        border-radius: 50%;
+    }
+    
+    #general-nav-footer-prof > img {
+        font-size: 25px;
+    }
+    
     
 
 
@@ -269,7 +310,7 @@
     }
 
     
-    
+
 
 
     /* right */
