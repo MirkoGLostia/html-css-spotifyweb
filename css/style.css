@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 /*********
@@ -15,7 +16,7 @@
 }
 
 #upper-container > nav {
-    width: 400px;
+    width: 300px;
 }
 
 #upper-container > main {
@@ -33,6 +34,44 @@
 /***********
  *MAIN LEFT*
  ***********/
+
+    /* general navigation */
+
+    #upper-container > nav {
+        background-color: black;
+    }
+    
+    #gen-l-nav > img {
+        margin: 20px;
+        width: 200px;
+    }
+    
+    #gen-l-nav > a {
+        margin: 10px;
+        color: #d2d2d2;
+    }
+    
+    .gen-l-nav-flex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .gen-l-nav-flex > div > img {
+        width: 40px;
+        margin-left: 20px;
+    }
+    
+    .gen-l-nav-flex > h2 {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+
+
+
+    /* playlist navigation */
+
+    
 
 
 
