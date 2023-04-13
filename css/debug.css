@@ -1,9 +1,23 @@
 
-/* main left */
+/* main right */
 
+#main-content > div h2 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+}
 
+#main-content > div h3, h4 {
+    margin-bottom: 10px;
+}
 
+#main-content > div h3 {
+    color: white;
+}
 
+#main-content > div h4 {
+    color: #7d7f84;
+}
 
 
 
@@ -24,4 +38,11 @@
     background-color: white;
     height: 50px;
     width: 50px;
+}
+
+.img-holder-sp {
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    margin: 10%;
 }

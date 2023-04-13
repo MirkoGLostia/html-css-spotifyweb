@@ -15,6 +15,8 @@
  #upper-container {
     display: flex;
     height: calc(100vh - 100px);
+    overflow: hidden;
+    position: relative;
 }
 
 #upper-container > nav {
@@ -119,6 +121,60 @@
 /************
  *MAIN RIGHT*
  ************/
+
+
+    /* header */
+
+    #upper-container > main {
+        background-color: #141922;
+    }
+    
+    #upper-banner {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 10;
+    }
+    
+    #upper-banner > button {
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: solid white 2px;
+        border-radius: 20px;
+        float: right;
+        margin: 30px;
+    }
+
+
+
+
+    /* main content */
+
+    #main-nav-right {
+        margin-top: 120px;
+        text-align: center;
+    }
+    
+    #main-nav-right > a {
+        color: #7d7f84;
+        margin: 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
